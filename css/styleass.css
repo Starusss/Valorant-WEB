@@ -1,0 +1,296 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+    font-family: Roboto,arial,georgia,sans-serif;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 100%;
+
+
+}
+.textdecoration {
+    text-decoration: none;
+}
+
+
+.header{
+    margin-bottom: 10px;
+    margin: 0;
+    height: 150px;
+   
+}
+.banner{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+
+.header-main{
+
+    padding: 10px 15px 10px 30px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    justify-content: space-evenly;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+    padding: 0 20px;
+}
+
+section{
+    background-color:  black;
+}
+.headerright{
+    text-decoration: none;
+    
+}
+
+/*slideshow*/
+
+.slider {
+    width:  auto;
+    height: 768px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider #prev,
+.slider #next {
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    font-size: 35px;
+    border: none;
+    background-color: gray;
+    color: white;
+    top: 50%;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.slider #next {
+    left: 97%;
+}
+
+.slider #prev:hover,
+.slider #next:hover {
+    background-color: red;
+}
+
+.item {
+    display: none;
+}
+
+.item.active {
+    display: block;
+}
+.item img {
+    width:  1366px;
+    height: 768px;
+}
+
+
+
+.text-center{
+    position: absolute;
+    list-style: none;
+    color: white;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.text-center li{
+    font-size: 20px;
+    margin: 20px;
+}
+.btn{
+    font-size: 38px;
+    color: white;
+    background: red;
+    padding: 5px;
+    border-radius: 10px
+}
+.btn:hover{
+    background-color: black;
+}
+.text1{
+padding: 30px;
+background-color: #ece8e1;
+}
+.text1 h2{
+    font-variant: small-caps;
+    text-decoration: solid;
+    font-size: 4rem;
+    font-family: Anton,sans-serif;
+    padding: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.text1 h5{
+    padding-left: 75px;
+    font-size: 29px;
+    line-height: 1.5;
+    font-family: Anton,sans-serif;
+}
+.text1 p{
+    color: #768079;
+    opacity: 80%;
+    font-size: 1.3rem;
+    font-family: Anton,sans-serif;
+    padding-right: 15%;
+    padding-left: 10%;
+}
+.colum{
+    display: flex;
+    align-items: center;
+}
+
+
+.video{
+text-align: right;
+}
+.text2 img{
+    width: 1287px;
+    height: auto;
+}
+.text-title{
+    position: absolute;
+    color: #000;
+    top: 14%;
+    left: 55%;
+    width: 400px;
+}
+.text2 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 45px;
+}
+.text2 h4{
+    font: size 20px;
+}
+.text2 p{
+    font-family: Roboto,arial,georgia,sans-serif;;
+    font-size: 17px;
+}
+.text2{
+    position: relative;
+    padding-top: 30px;
+}
+.btn-agent{
+    position: absolute;
+    color: white;
+    top: 380px;
+    background: red;
+    left: 52px;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-agent:hover{
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #000;
+    text-align: center;
+}
+.footer li{
+    width: 600px;
+    list-style: none;
+    line-height: 25px;
+    opacity: 70%;
+}
+.customer-support{
+    color: white;
+    margin: 20px;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.contact h3{
+    margin: 5px;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+i{
+    color: white;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+.mg-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.riot img{
+    width: 99px;
+    height: 32px
+    ;opacity: 0.5;
+}
+.riot img:hover{
+    opacity: 1;
+}
+.contact p{
+    color: white;
+    opacity: 70%;
+    margin: 0;
+}
+
+
+
+
+
+

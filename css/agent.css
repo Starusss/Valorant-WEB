@@ -1,0 +1,271 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+    font-family: Roboto,arial,georgia,sans-serif;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 100%;
+
+
+}
+.textdecoration {
+    text-decoration: none;
+}
+
+
+.header{
+    margin-bottom: 10px;
+    margin: 0;
+    height: 150px;
+   
+}
+.banner{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+
+.header-main{
+
+    padding: 10px 15px 10px 30px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    justify-content: space-evenly;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+    padding: 0 20px;
+}
+
+section{
+    background-color:  black;
+}
+.headerright{
+    text-decoration: none;
+    
+}
+
+
+
+/* main */
+.jet{
+    position: relative;
+}
+.img-character {
+    position: relative;
+}
+
+.character-item {
+    position: absolute;
+    top: 97px;
+    left: 30%;
+    height: 70%;
+    transition: transform .2s;
+    padding: 1px;
+}
+.character-item:hover{
+    transform: scale(1.3);
+
+}
+.product-agent{
+    font-size: 20px;
+    color: white;
+    top: 116px;
+    position: absolute;
+    left: 70%;
+}
+
+.product-agent h3{
+    margin: 0;
+    padding: 0;
+}
+.duelist{
+    display: flex;
+    align-items: center;    
+}
+
+.duelist img{
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+}
+.agent-story h4{
+    font-size: 15px;
+    width: 250px;
+}
+.btn{
+    
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    left: 71%;
+    font-size: 45px;
+    position: absolute;
+    top: 75%;
+    width: 211px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+.btn1 :hover{
+    background-color: red;
+}
+.btn span{
+    margin: 8px;
+}
+
+.btn img{
+    width: auto;
+    height: 45px;
+}
+.raize{
+    position: relative;
+}
+
+.duelist img{
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+}
+.btn img{
+    width: auto;
+    height: 45px;
+}
+.omen{
+    position: relative;
+}
+
+
+.duelist img{
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+}
+.btn img{
+    width: auto;
+    height: 45px;
+}
+.breach{
+    position: relative;
+}
+
+.duelist img{
+    width: 30px;
+    margin: 5px;
+    height: 30px;
+}
+
+.menufix{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+}  
+.menu-fix-text ul {
+    list-style: none;
+    padding: 5px;
+}
+.menu-fix-text ul li a{
+    color: white;
+    font-variant: small-caps;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 800;
+
+}
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #000;
+    text-align: center;
+}
+.footer li{
+    width: 600px;
+    list-style: none;
+    line-height: 25px;
+    opacity: 70%;
+}
+.customer-support{
+    color: white;
+    margin: 20px;
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.contact h3{
+    margin: 5px;
+}
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+i{
+    color: white;
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+.mg-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.riot img{
+    width: 99px;
+    height: 32px
+    ;opacity: 0.5;
+}
+.riot img:hover{
+    opacity: 1;
+}
+.contact p{
+    color: white;
+    opacity: 70%;
+    margin: 0;
+}

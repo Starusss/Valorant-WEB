@@ -1,0 +1,179 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    margin: 0;
+    font-family: Roboto,arial,georgia,sans-serif;
+}
+.img-fluid{
+    max-width: 100%;
+}
+.container{
+    max-width: 100%;
+
+
+}
+.textdecoration {
+    text-decoration: none;
+}
+
+
+.header{
+    margin-bottom: 10px;
+    margin: 0;
+    height: 150px;
+   
+}
+.banner{
+    display: flex;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+
+
+.header-main{
+
+    padding: 10px 15px -1px 30px;
+    display: flex;
+    align-items: center;
+    font-variant: small-caps;
+    justify-content: space-evenly;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+    padding: 0 20px;
+}
+
+section{
+    background-color:  black;
+}
+.headerright{
+    text-decoration: none;
+    
+}
+
+
+#content {
+    top: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.container img{
+    width: 1287px;
+    position: absolute;
+}
+.text{
+    font-size: 31px;
+    position: absolute;
+    color: white;
+    padding-left: 130px;
+    top: 390px;
+}
+
+
+
+
+.tittle {
+    text-align: center;
+}
+
+.khung {
+    background-color: white;
+    margin-top: 55px;
+    margin-left: 730px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+
+#frames2,
+.select,
+#frames {
+    width: 405px;
+    height: 40px;
+    border: 2px solid rgb(194, 192, 192);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#noidung {
+    
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.nho {
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.dk {
+    margin-bottom: px;
+    width: 400px;
+    height: 35px;
+}
+
+.select {
+    padding-left: 10px;
+    width: 407px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.note {
+    width: 400px;
+    height: 70px;
+    border: 2px solid rgb(194, 192, 192);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #192041;
+    border: none;
+    cursor: pointer;
+}
+
+.but {
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+legend {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.p {
+    margin-top: 0;
+    color: red;
+}
